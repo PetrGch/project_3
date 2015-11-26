@@ -1,0 +1,319 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+	font: bold 20px 'Poiret One', Verdana, Arial, Sans-serif;
+}
+
+body {
+	max-width: 100%;
+	min-width: 1000px;
+	height: 100%;
+	background: #fff;
+}
+
+.main {
+
+}
+
+.header {
+	height: 130px;
+	overflow: hidden;
+}
+
+.header h1 a {
+	font: bold 44px 'Poiret One', Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+.header h1 a:focus {
+	outline: none;
+}
+
+.header h1 {
+	float: left;
+	padding: 40px 0 40px 140px;
+	width: 140px;
+}
+
+.header ul {
+	float: right;
+	padding: 45px 130px 50px 0;
+}
+
+.header ul li {
+	display: inline-block;
+	list-style: none; 
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	padding: 0 5px;
+}
+
+.header ul li a {
+	font: bold 20px 'Poiret One', Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	text-decoration: none; 
+	line-height: 40px;
+
+	transition: all .2s ease-in-out; 
+}
+
+.header ul li a:hover, .header ul li:hover {
+	color: #55acee; 
+	font-size: 23px;
+	line-height: 37px;
+}
+
+/* billBorder */
+
+.billBorder {
+	background: url(images/bill_border.jpg) no-repeat;
+	background-size: contain; 
+	overflow: hidden;
+	height: 650px;
+}
+
+.slider {
+	width: 100%;
+}
+
+.slider img {
+	width: 100%;
+}
+
+.bordDiscr {
+	width: 500px;
+	margin: 11% auto 20px auto;
+}
+
+.bordDiscr h3 {
+	font: bold 50px 'Poiret One', Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	text-align: center;
+}
+
+.bordDiscr h4 {
+	font: bold 20px 'Poiret One', Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	text-align: center;
+	padding: 20px;
+}
+
+.startSearch {
+	width: 290px;
+	height: 50px;
+	border-radius: 60px;
+	background-color: #4d4d4d;
+	margin: 0 auto;
+	cursor: pointer;
+	opacity: 0.7;
+
+	transition: all .1s ease-in-out;
+}
+
+.startSearch:hover {
+	opacity: 1;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	border: 2px solid #eee;
+}
+
+.startSearch h4 {
+	text-align: center;
+	font: 18px Arial, Verdana, Sans-serif;
+	color: #fff;
+	padding: 15px 0;
+}
+
+.startSearch h4 img {
+	padding: 0 0 4px 5px;
+}
+
+.services {
+	margin: 50px 150px 100px 150px;
+}
+
+.s1, .s2, .s3 {
+	width: 30%;
+	height: 250px;
+}
+
+.services h5 {
+	text-align: center;
+	padding: 140px 0 10px 0;
+	font: bold 22px Verdana, Arial, Sans-serif;
+	color: #727272;
+}
+
+.services p {
+	text-align: center;
+	padding: 10px 5px;
+	font: 15px Verdana, Arial, Sans-serif;
+	color: #727272;
+}
+
+.s1 {
+	float: left;
+	background: url(images/serv_1.png) center 30px no-repeat;
+}
+
+.s3 {
+	float: right;
+	background: url(images/serv_3.png) center 30px no-repeat;
+}
+
+.s2 {
+	background: url(images/serv_2.png) center 30px no-repeat;
+	margin: 0 auto;
+}
+
+.subscription {
+	background-color: #f5f5f5;
+	height: 400px;
+}
+
+.subscription h5 {
+	text-align: center;
+	font: bold 30px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	padding: 100px 0 40px 0;
+}
+
+.subscription p {
+	text-align: center;
+	font: 15px Verdana, Arial, Sans-serif;
+	color: #717171;
+}
+
+.subButton {
+	border: 3px solid #4d4d4d;
+	border-radius: 60px;
+	width: 290px;
+	height: 50px;
+	margin: 50px auto 0 auto;
+	cursor: pointer;
+
+	transition: all .2s ease-in-out;
+}
+
+.subButton:hover {
+	background-color: #55acee; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	border: 3px solid #eee;
+}
+
+.subButton p {
+	padding: 16px 0;
+	font: bold 16px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+}
+
+.socMedia {
+	width: 320px;
+	margin: 100px auto;
+}
+
+.socMedia ul li {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border: 3px solid #4d4d4d;
+	margin: 20px;
+	cursor: pointer;
+
+	transition: all .2s ease-in-out;
+}
+
+.socMedia ul li:hover {
+	background-color: #55acee; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	border: 3px solid #eee; 
+}
+
+.socMedia ul li img {
+	width: 15px;
+	height: 15px;
+	margin: 21px 21px;
+}
+
+.footer {
+	height: 350px;
+	background-color: #3b3b3b;
+}
+
+.footer div {
+	display: inline-block;
+	vertical-align: top;
+	margin: 100px 4% 0 4%;
+
+}
+
+.footer div:first-of-type {
+	margin-left: 150px; 
+}
+
+.footer div h5 {
+	font: 18px Verdana, Arial, Sans-serif;
+	color: #ddd;
+	margin-bottom: 40px;
+}
+
+.footer div p {
+	font: 14px Verdana, Arial, Sans-serif;
+	color: #ebebeb;
+	line-height: 25px;
+}
+
+.footer div p span {
+	color: #b5b5b5;
+	border-bottom: 1px solid #b5b5b5;
+}
+
+.pictFooter  {
+	padding-top: 20px;
+	margin: 0 !important;
+}
+
+.pictFooter a {
+	text-decoration: none;
+	font: 14px Verdana, Arial, Sans-serif;
+	color: #b5b5b5;
+}
+
+.footer ul li {
+	list-style: none;
+}
+
+.footer ul li a {
+	font: 14px Verdana, Arial, Sans-serif;
+	color: #ebebeb;
+	text-decoration: none;
+	line-height: 25px;
+
+	transition: all .2s ease-in-out;
+}
+
+.footer ul li a:hover {
+	font-size: 15px;
+	color: #55acee;
+}
+
+.logoFooter a {
+	font: bold 50px 'Poiret One', Verdana, Arial, Sans-serif;
+	color: #b5b5b5;
+	text-decoration: none;
+
+	transition: all .2s ease-in-out;
+}
+
+.logoFooter a:hover {
+	font-size: 55px;
+	color: #55acee;
+}
+
+.logoFooter {
+	margin: 160px 150px 0 0 !important;
+	float: right;
+}
