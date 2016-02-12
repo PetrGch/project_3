@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+
+	transition: all .2s;
 }
 h1, h2, h3, h4, h5, h6, p, a {
 	font: bold 20px 'Poiret One', Verdana, Arial, Sans-serif;
@@ -17,6 +19,8 @@ body {
 
 }
 
+/* Header */
+
 .header {
 	height: 130px;
 	overflow: hidden;
@@ -26,6 +30,13 @@ body {
 	font: bold 44px 'Poiret One', Verdana, Arial, Sans-serif;
 	color: #4d4d4d;
 	text-decoration: none;
+
+	transition: all .2s ease-in-out;
+}
+
+.header h1 a:hover {
+	font-size: 46px;
+	color: #55acee;
 }
 
 .header h1 a:focus {
@@ -40,7 +51,7 @@ body {
 
 .header ul {
 	float: right;
-	padding: 45px 130px 50px 0;
+	padding: 47px 130px 48px 0;
 }
 
 .header ul li {
@@ -73,7 +84,7 @@ body {
 	background: url(images/bill_border.jpg) no-repeat;
 	background-size: contain; 
 	overflow: hidden;
-	height: 650px;
+	height: 560px;
 }
 
 .slider {
@@ -131,8 +142,18 @@ body {
 	padding: 0 0 4px 5px;
 }
 
+/* Services */
+
 .services {
-	margin: 50px 150px 100px 150px;
+	margin: 0 150px 100px 150px;
+	display: none;
+}
+
+.services h4 {
+	text-align: center;
+	font: bold 30px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	padding: 100px 0 40px 0;
 }
 
 .s1, .s2, .s3 {
@@ -168,6 +189,68 @@ body {
 	background: url(images/serv_2.png) center 30px no-repeat;
 	margin: 0 auto;
 }
+
+/* Our story */
+
+.ourStory {
+	margin: 0 150px 100px 150px;
+	height: 424px;
+	display: none;	
+}
+
+.ourStory h4 {
+	text-align: center;
+	font: bold 30px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	padding: 100px 0 40px 0;
+}
+
+/* Work */
+
+.work {
+	margin: 0 150px 100px 150px;
+	height: 424px;	
+	display: none;
+}
+
+.work h4 {
+	text-align: center;
+	font: bold 30px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	padding: 100px 0 40px 0;
+}
+
+/* Journal */
+
+.journal {
+	margin: 0 150px 100px 150px;
+	height: 424px;	
+	display: none;
+}
+
+.journal h4 {
+	text-align: center;
+	font: bold 30px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	padding: 100px 0 40px 0;
+}
+
+/* Contact */
+
+.contact {
+	margin: 0 150px 100px 150px;
+	height: 424px;	
+	display: none;
+}
+
+.contact h4 {
+	text-align: center;
+	font: bold 30px Verdana, Arial, Sans-serif;
+	color: #4d4d4d;
+	padding: 100px 0 40px 0;
+}
+
+/* Subscription */
 
 .subscription {
 	background-color: #f5f5f5;
@@ -305,7 +388,7 @@ body {
 	color: #b5b5b5;
 	text-decoration: none;
 
-	transition: all .2s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .logoFooter a:hover {

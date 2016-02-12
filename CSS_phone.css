@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	transition: all .2s;
+}
+
+@media screen and (max-width: 680px) {
+	
+	body {
+		max-width: 660px;
+		min-width: 650px;
+	}
+
+	.header {
+		height: 65px;
+	}
+
+	.header h1 a {
+		font: bold 25px 'Poiret One', Verdana, Arial, Sans-serif;
+
+		transition: all .2s ease-in-out;
+	}
+
+	.header h1 a:hover {
+		font-size: 26px;
+	}
+
+	.header h1 {
+		padding: 20px 0 20px 50px;
+		width: 70px;
+	}
+
+	.header ul {
+		padding: 29px 50px 15px 0;
+	}
+
+	.header ul li { 
+		width: 70px;
+		height: 20px;
+		padding: 0 5px;
+	}
+
+	.header ul li a {
+		font: bold 15px 'Poiret One', Verdana, Arial, Sans-serif;
+		line-height: 10px;
+
+		transition: all .2s ease-in-out; 
+	}
+
+	.header ul li a:hover, .header ul li:hover {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	/* billBorder */
+
+	.billBorder { 
+		height: 283px;
+	}
+
+	.slider {
+		width: 100%;
+	}
+
+	.slider img {
+		width: 100%;
+	}
+
+	.bordDiscr {
+		width: 300px;
+		margin: 8% auto 20px auto;
+	}
+
+	.bordDiscr h3 {
+		font: bold 30px 'Poiret One', Verdana, Arial, Sans-serif;
+	}
+
+	.bordDiscr h4 {
+		font: bold 20px 'Poiret One', Verdana, Arial, Sans-serif;
+		padding: 10px 0;
+	}
+
+	.startSearch {
+		width: 150px;
+		height: 35px;
+	}
+
+	.startSearch:hover {
+		box-shadow: 0 0 5px rgba(0,0,0,0.7);
+		border: 1px solid #eee;
+	}
+
+	.startSearch h4 {
+		font: 14px Arial, Verdana, Sans-serif;
+		color: #fff;
+		padding: 10px 0;
+	}
+
+	/* Services */
+
+	.services {
+		margin: 0 50px 30px 50px;
+		height: 350px;
+	}
+
+	.services h4 {
+		font: bold 20px Verdana, Arial, Sans-serif;
+		padding: 50px 0 20px 0;
+	}
+
+	.s1, .s2, .s3 {
+		width: 30%;
+		height: 250px;
+	}
+
+	.services h5 {
+		padding: 120px 0 10px 0;
+		font: bold 15px Verdana, Arial, Sans-serif;
+	}
+
+	.services p {
+		padding: 10px 5px;
+		font: 15px Verdana, Arial, Sans-serif;
+	}
+	
+	/* Our story */
+
+	.ourStory {
+		margin: 0 50px 30px 50px;
+		height: 350px;	
+	}
+
+	.ourStory h4 {
+		font: bold 20px Verdana, Arial, Sans-serif;
+		padding: 50px 0 20px 0;
+	}
+
+	/* Work */
+
+	.work {
+		margin: 0 50px 30px 50px;
+		height: 350px;
+	}
+
+	.work h4 {
+		font: bold 20px Verdana, Arial, Sans-serif;
+		padding: 50px 0 20px 0;
+	}
+
+	/* Journal */
+
+	.journal {
+		margin: 0 50px 30px 50px;
+		height: 350px;
+	}
+
+	.journal h4 {
+		font: bold 20px Verdana, Arial, Sans-serif;
+		padding: 50px 0 20px 0;
+	}
+
+	/* Contact */
+
+	.contact {
+		margin: 0 50px 30px 50px;
+		height: 350px;
+	}
+
+	.contact h4 {
+		font: bold 20px Verdana, Arial, Sans-serif;
+		padding: 50px 0 20px 0;
+	}
+
+	/* Subscription */
+
+	.subscription {
+		height: 250px;
+	}
+
+	.subscription h5 {
+		font: bold 25px Verdana, Arial, Sans-serif;
+		padding: 50px 0 20px 0;
+	}
+
+	.subscription p {
+		font: 15px Verdana, Arial, Sans-serif;
+	}
+
+	.subButton {
+		border: 2px solid #4d4d4d;
+		width: 250px;
+		height: 45px;
+		margin: 30px auto 0 auto;
+		cursor: pointer;
+
+		transition: all .2s ease-in-out;
+	}
+
+	.subButton:hover {
+		box-shadow: 0 0 5px rgba(0,0,0,0.7);
+		border: 2px solid #eee;
+	}
+
+	.subButton p {
+		padding: 15px 0;
+		font: bold 16px Verdana, Arial, Sans-serif;
+	}
+
+	/* cosMedia */
+
+	.socMedia {
+		width: 280px;
+		margin: 50px auto;
+	}
+
+	.socMedia ul li {
+		width: 45px;
+		height: 45px;
+		border: 2px solid #4d4d4d;
+
+		transition: all .2s ease-in-out;
+	}
+
+	.socMedia ul li:hover {
+		box-shadow: 0 0 5px rgba(0,0,0,0.7);
+		border: 2px solid #eee; 
+	}
+
+	.socMedia ul li img {
+		width: 14px;
+		height: 14px;
+		margin: 16px 16px;
+	}
+
+	/* footer */
+
+	.footer {
+		height: 250px;
+	}
+
+	.footer div {
+		margin: 50px 20px 0 20px;
+
+	}
+
+	.footer div:first-of-type {
+		margin-left: 50px; 
+	}
+
+	.footer div h5 {
+		font: bold 15px Verdana, Arial, Sans-serif;
+		margin-bottom: 20px;
+	}
+
+	.logoFooter a {
+		font: bold 50px 'Poiret One', Verdana, Arial, Sans-serif;
+		color: #b5b5b5;
+		text-decoration: none;
+
+		transition: all .2s ease-in-out;
+	}
+
+	.logoFooter a:hover {
+		font-size: 51px;
+	}
+
+	.logoFooter {
+		margin: 50px 50px 0 0 !important;
+		float: right;
+	}
+
+}
